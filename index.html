@@ -10,6 +10,7 @@
     <title>Panda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <style>
     body {
@@ -23,7 +24,7 @@
         crossorigin="anonymous"></script>
 
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,13 +37,13 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shoes</a>
+                        <a class="nav-link" href="#Shoes">Shoes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#bags">Backpack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#sub">Subscribe</a>
                     </li>
 
 
@@ -50,10 +51,11 @@
 
             </div>
         </nav>
+        <!-- Carousal Section Start -->
         <section class="mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active bg-info rounded  p-5">
+                    <div class="carousel-item active panda-bg-info rounded  p-5">
                         <div class="row ">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -72,7 +74,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item active bg-info rounded  p-5">
+                    <div class="carousel-item active panda-bg-info rounded  p-5">
                         <div class="row ">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -82,7 +84,7 @@
                                         quas,
                                         suscipit sequi laborum quod porro? Pariatur, maxime eligendi.</p>
                                     <h1>$1200</h1>
-                                    <div class="btn btn-warning">Buy Now!</div>
+                                    <div class="btn panda-btn-warning">Buy Now!</div>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -91,7 +93,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item active bg-info rounded  p-5">
+                    <div class="carousel-item active panda-bg-info rounded  p-5">
                         <div class="row ">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -101,7 +103,7 @@
                                         quas,
                                         suscipit sequi laborum quod porro? Pariatur, maxime eligendi.</p>
                                     <h1>$600</h1>
-                                    <div class="btn btn-warning">Buy Now!</div>
+                                    <div class="btn panda-btn-warning">Buy Now!</div>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -124,7 +126,9 @@
                 </button>
             </div>
         </section>
+        <!-- Carousal Section End -->
         <main>
+            <!-- Category Secion Start -->
             <section>
                 <div class="container text-center my-5">
                     <div class="row g-2">
@@ -155,7 +159,11 @@
                     </div>
                 </div>
             </section>
-            <section class="container my-5">
+            <!-- Category Secion Start -->
+
+
+            <!-- Shoes Section Start -->
+            <section class="container my-5" id="Shoes">
                 <h2>Shoes</h2>
                 <div class="card-group">
                     <div class="row">
@@ -170,7 +178,7 @@
                                     <h5>$650</h5>
                                 </div>
                                 <div class="card-footer border border-0 m-3 bg-white">
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="btn panda-btn-warning">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +193,7 @@
                                     <h5>$750</h5>
                                 </div>
                                 <div class="card-footer border border-0 m-3 bg-white">
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="btn panda-btn-warning">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +208,7 @@
                                     <h5>$850</h5>
                                 </div>
                                 <div class="card-footer border border-0 m-3 bg-white">
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="btn panda-btn-warning">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +217,11 @@
 
                 </div>
             </section>
-            <section class="container my-5">
+            <!-- Shoes Section Start -->
+
+
+            <!-- Bags Secion Start -->
+            <section class="container my-5" id="bags">
                 <h2>Bags</h2>
                 <div class="card-group">
                     <div class="row">
@@ -224,7 +236,7 @@
                                     <h5>$650</h5>
                                 </div>
                                 <div class="card-footer border border-0 m-3 bg-white">
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="btn panda-btn-warning">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -239,7 +251,7 @@
                                     <h5>$750</h5>
                                 </div>
                                 <div class="card-footer border border-0 m-3 bg-white">
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="btn panda-btn-warning">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +266,7 @@
                                     <h5>$850</h5>
                                 </div>
                                 <div class="card-footer border border-0 m-3 bg-white">
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="btn panda-btn-warning">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -263,8 +275,34 @@
 
                 </div>
             </section>
+            <!-- Bags Secion End -->
+
+
+            <!-- Subscribe Section Start -->
+            <section style="height:300px;"
+                class="container d-flex justify-content-center align-items-center text-center panda-bg-info rounded-3"
+                id="sub">
+                <div>
+                    <h1>Lest Stay In Touch</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-primary my-3 pe-3">Submit</button>
+                        <button type="reset" class="btn btn-primary my-3">Reset</button>
+                    </form>
+                </div>
+            </section>
+            <!-- Subscribe Section End -->
 
         </main>
+        <footer class="my-5">
+            <h5 class=" text-center"><small> All Rights Reserved</small><span class="text-danger fw-bolder">@
+                    Programming
+                    Hero</span> </h5>
+        </footer>
     </header>
 
 

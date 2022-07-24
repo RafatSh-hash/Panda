@@ -1,0 +1,9 @@
+.panda-bg-info {
+    background-color: rgb(235, 205, 205) !important;
+}
+
+.panda-btn-warning {
+    background-color: #FF1365;
+    color: white;
+    font-weight: 600;
+}
